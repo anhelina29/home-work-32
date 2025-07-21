@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="flex h-[100vh] items-center justify-center bg-[#ccc] bg-cover bg-center">
+<main class="m-width-[500px] text-white flex flex-col gap-4 p-8 rounded-xl backdrop-blur-md bg-[rgba(0,0,0,.3)]">
+    <form name="movieForm" class="flex items-center gap-4">
+        <label class="flex items-center gap-4">
+            <span class="font-3xl font-bold">Movie:</span>
+            <input class="p-2" type="search" name="movie" placeholder="Search Movie...">
+        </label>
+        <button class="cursor-pointer">
+            <img src="img/search.png" alt="search">
+        </button>
+    </form>
+
+    <hr>
+    <section id="movie"></section>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
